@@ -11,23 +11,29 @@
     content: " ";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 15%);
+    margin-top: 15%;
     background-image: url("../assets/background.png");
     opacity: 0.2;
 }
+.fade-in {
+    -webkit-animation: fadeinout 1.4s linear forwards;
+    animation: fadeinout 1.4s linear forwards;
+}
 
-// .nav {
-//     display: flex;
-//     position: relative;
-//     flex-direction: row;
-//     justify-content: flex-start;
-//     width: 100%;
-//     height: 20px;
-//     background-color: grey;
-// }
+@-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 .container {
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     margin: auto;
     top: 0;
@@ -35,7 +41,6 @@
     max-width: 100%;
     width: 100%;
     height: 100%;
-    // margin-top: 10px;
     margin-bottom: 50px;
 }
 .container .main {
@@ -88,10 +93,10 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    margin: -50px auto 0;
+    margin: 0 auto 0 6vw;
     img {
         width: 500px;
-        height: auto;
+        height: 420px;
     }
 }
 .container .main .main-text {
@@ -102,7 +107,7 @@
     text-align: center;
     width: 70%;
     height: auto;
-    margin: 0 auto;
+    margin: -40px auto 0;
     opacity: 1;
     p {
         width: 60%;
@@ -189,9 +194,7 @@
         .sample-text{
             margin: auto;
             text-align: center;
-            
             p {
-                // color: #4C565A;
                 font-weight: 500;
             }
         }
@@ -209,7 +212,6 @@
             text-align: center;
             p {
                 color: #fff;
-                // color: #DCB656;
                 font-weight: 500;
             }
         }
@@ -221,21 +223,6 @@
             }
         }
     }
-}
-
-.fade-in {
-    -webkit-animation: fadeinout 1.4s linear forwards;
-    animation: fadeinout 1.4s linear forwards;
-}
-
-@-webkit-keyframes fadeinout {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes fadeinout {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
 }
 
 .footer {
@@ -313,7 +300,6 @@
     a {
         width: 32px;
         height: 32x;
-        margin-right: 20px;
     }
 }
 .footer .contact .address-link {
@@ -328,6 +314,11 @@
         font-weight: 400;
         line-height: 1.8;
         margin: 0;
+    }
+}
+@media (min-width: 1400px) {
+    .global:before {
+        margin-left: 5%;
     }
 }
 @media (max-width: 1200px) {
@@ -360,6 +351,11 @@
 }
 
 @media (max-width: 960px) {
+    .global:before {
+        height: calc(100% - 30%);
+        margin-top: 30%;
+        margin-left: 0;
+    }
     .sample {
         width: 100%;
         height: auto;
@@ -385,6 +381,7 @@
             width: 70%;
             height: auto;
             margin-bottom: 40px;
+            box-shadow: none;
             .sample-text {
                 width: 80%;
                 margin: 20px auto;
@@ -403,19 +400,33 @@
         .info-text p{
             font-size: 2.2em;
         }
+        .info-logo a img {
+            width: 300px;
+            height: 70px;
+        }
+        .info-logo:hover {
+            transform: none;
+        }
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 584px) {
+    .global:before {
+        height: calc(100% - 50%);
+        margin-top: 50%;
+        margin-left: 0;
+        background-size: 220%;
+    }
     .container .main .logo {
         width: 100%;
         img {
-            width: 70vw;
-            height: auto;
+            width: 80vw;
+            height: calc(80vw - 80px);
         }
     }
     .container .main .main-text {
         width: 80%;
+        margin-top: 0;
         p {
             width: 100%;
             line-height: 20px;
@@ -427,8 +438,6 @@
     }
     .sample {
         width: 100%;
-        // left: 0;
-        // margin-left: -1.2vh;
 
         .sample-title-img {
             width: 100%;
@@ -449,18 +458,3 @@
     }
 
 }
-
-// @media (max-width: 300px) {
-//     .global {
-//         left: 0;
-//     }
-//     .container {
-//         max-width: 100%;
-//     }
-//     .footer {
-//         width: 100%;
-//     }
-//     .footer .contact {
-//         width: 100%;
-//     }
-// }
