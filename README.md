@@ -1,27 +1,22 @@
-# hardbeans
-hardbeans cosmetics
-you can scan the page on link https://hardbeans-cosmetics.netlify.app/
+# HardBeans Cosmetics
 
 <h4>Language: <a href="#en">EN</a></h4>
 
 <h2>Opis</h2>
 <p>Ta strona została stworzona w celu promowania nowych próbek produktów oferowanych przez firmę HardBeans.</br>
 Firma specjalizuje się w produkcji wysokiej jakości kaw, herbat i innych napojów, które są dostępne w różnych smakach i wariantach.</br>
-Na tej stronie możesz znaleźć oraz poznać próbki najnowszych produktów, które dopiero co zostały wprowadzone na rynek. </br>
+Nowe próbki są nowością w ofercie i na rynku, ponieważ nigdzie jeszcze nie produkuje się Peeling'u z fusów czy choćby olejków z fusów kawowych. </br>
+Na tej stronie możesz znaleźć oraz poznać próbki najnowszych produktów, które dopiero co zostały wprowadzone na rynek.
+</p>
 
-Strona zawiera również informacje o firmie, w tym historii i misji, naszych wartościach i zobowiązaniach wobec klientów. Możesz również znaleźć informacje na temat metod produkcji i w jaki sposób firma dba o jakość produktów.
-</br>
-Mam nadzieję, że ta strona pomoże Ci lepiej poznać firmę HardBeans i jej produkty. Zapraszamy do zapoznania się z ofertą, a także do dzielenia się swoimi opiniami. </p>
-
-### *Strona w rozbudowie*
+**Możesz odwiedzić stronę pod linkiem:** https://hardbeans-cosmetics.netlify.app/ 
 
 ## Narzędzia i technologie użyte w projekcie:
 - Visual Studio Code (środowisko)
-- Angular 12
+- Angular 13
 - TypeScript 4
 - HTML 5
 - SCSS
-- NodeMailer (serwis)
 
 <h2>Licencja</h2>
 <p>Ten projekt jest objęty licencją "przeglądową", co oznacza, że zachowuję pełne prawa autorskie do kodu, 
@@ -38,29 +33,22 @@ Prosimy o nie korzystanie z tych materiałów bez uprzedniej zgody ich właścic
 <p>Email: <a href="mailto:markulaks17@gmail.com">markulaks17@gmail.com</a></p>
 </br></br>
 
-<h1 id="en">Puchrowicz Design en</h1>
+<h1 id="en">HardBeans Cosmetics en</h1>
 
 <h2>Description</h2>
-<p>This is a website that serves as a showcase of customer skills.
-On the main page you will find several sections, including "about me", "projects" and a contact form.
-</br></br>
-In the "About me" section, a brief description of experience and professional goals is presented.
-</br>
-The "Projects" section allows you to view projects divided into categories. In this section you will find information about most important projects.
-</br>
-The contact form allows the user to send an e-mail to the customer's mailbox.
-</br></br>
-The site was written under the client's guidelines.</p>
+<p>This website was created to promote new product samples offered by HardBeans.</br>
+The company specializes in producing high-quality coffee, tea, and other beverages available in different flavors and varieties.</br>
+New samples are a novelty in the offer and on the market, as nowhere else is it possible to produce Coffee Grounds Scrub or even coffee grounds oils. </br>
+On this website, you can find and discover samples of the newest products that have just been introduced to the market.</p>
 
-### *Page under construction*
+**You can visit the website at:** https://hardbeans-cosmetics.netlify.app/ 
 
 ## Tools & technologies used in the project:
 - Visual Studio Code (enviroment)
-- Angular 12
+- Angular 13
 - TypeScript 4
 - HTML 5
 - SCSS
-- NodeMailer (servis)
 
 <h2>License</h2>
 <p>This project is licensed under a "permissive" license, which means that I retain full copyright ownership of the code, while allowing others to view and use it. 
