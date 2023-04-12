@@ -44,7 +44,7 @@ On this website, you can find and discover samples of the newest products that h
 **You can visit the website at:** https://hardbeans-cosmetics.netlify.app/ 
 
 ## Tools & technologies used in the project:
-- Visual Studio Code (enviroment)
+- Visual Studio Code (environment)
 - Angular 13
 - TypeScript 4
 - HTML 5
